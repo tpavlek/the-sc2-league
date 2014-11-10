@@ -1,0 +1,4 @@
+output_dev/
+output_prod/
+.idea
+node_modules/

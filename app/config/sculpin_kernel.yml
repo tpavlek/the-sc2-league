@@ -1,0 +1,4 @@
+sculpin_content_types:
+  posts:
+    enabled: true
+    permalink: posts/:year/:month/:day/:filename/

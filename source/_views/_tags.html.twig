@@ -1,0 +1,8 @@
+{% if tags %}
+    <p class="tags">
+        Tags
+        {% for tag in tags %}
+            <a href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}" class="tag tag-{{ tag }}">{{ tag }}</a>
+        {% endfor %}
+    </p>
+{% endif %}
